@@ -39,3 +39,15 @@ void SetHook() {
 void ReleaseHook() {
     UnhookWindowsHookEx(hHook);
 }
+
+void startKeyBoardInput() {
+    SetHook();
+
+    MSG msg;
+    while (GetMessage(&msg, NULL, 0, 0)) {
+        TranslateMessage(&msg);
+        DispatchMessage(&msg);
+    }
+
+    ReleaseHook();
+}
