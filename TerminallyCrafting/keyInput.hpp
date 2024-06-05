@@ -35,7 +35,7 @@ void SetHook() {
         std::cerr << "Failed to install hook!" << std::endl;
     }
     else {
-        std::cout << "Hook installed successfully!" << std::endl;
+        std::cout << "Keyboard input is active" << std::endl;
     }
 }
 

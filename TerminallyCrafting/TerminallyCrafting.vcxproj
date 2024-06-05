@@ -131,6 +131,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="keyInput.hpp" />
+    <ClInclude Include="map.hpp" />
+    <ClInclude Include="movement.hpp" />
     <ClInclude Include="vectorMath.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

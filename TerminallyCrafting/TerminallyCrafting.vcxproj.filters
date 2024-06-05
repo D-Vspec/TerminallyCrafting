@@ -26,5 +26,11 @@
     <ClInclude Include="vectorMath.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="movement.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
